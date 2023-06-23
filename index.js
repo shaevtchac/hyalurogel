@@ -3,6 +3,8 @@ import { Splide } from '@splidejs/splide';
 const testimonialsCarousel = new Splide('#testimonials', {
   autoplay: true,
   interval: 15000,
+  pauseOnHover: true,
+  type: 'loop',
   classes: {
     arrow: 'splide__arrow arrow',
     pagination: 'splide__pagination pagination',
