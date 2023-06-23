@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Warstwa_2" data-name="Warstwa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21.25 40">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Tryb_izolacji" data-name="Tryb izolacji">
+    <polygon class="cls-1" points="5.56 0 0 0 15.69 20 0 40 5.56 40 21.25 20 5.56 0"/>
+  </g>
+</svg>

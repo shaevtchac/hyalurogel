@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Title</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js" type="module"></script>
+  </head>
+
+  <body
+    class="mx-auto max-w-[1300px] font-montserrat text-[clamp(1rem,0.95rem+0.25vw,1.25rem)]"
+  >
+    <!--                                                                    x
+                                                                            x
+                                                                            x
+                                                                            x
+                                                                            x
+-->
+    <div class="grid md:grid-cols-2">
+      <div data-animation="fade-from-left" class="relative overflow-hidden">
+        <img
+          src="img/11hero.jpg"
+          alt="piegowata kobieta"
+          class="w-full transition-transform duration-500 hover:scale-110"
+        />
+
+        <p class="absolute bottom-8 right-8 text-right text-white text-[1.1em]">
+          Moją receptą <br />
+          na wrażliwą skórę <br />
+          jest Mixa.
+        </p>
+      </div>
+
+      <div
+        data-animation="fade-from-right"
+        class="order-first md:order-last relative mb-[35%] md:mb-0 grid"
+      >
+        <img
+          src="img/13cross.png"
+          alt=""
+          class="transition-transform duration-500 hover:scale-110 absolute left-1/2 -translate-x-1/2 top-full w-1/2 md:top-[30%] md:left-[12%]"
+        />
+        <img
+          src="img/10mixa-logo.png"
+          alt="logo Mixa"
+          class="mt-4 mx-auto w-1/2"
+        />
+        <div class="grid grid-cols-[60%_1fr] items-center mt-8">
+          <img
+            src="img/12pack.png"
+            alt="packaging"
+            class="transition-transform duration-500 hover:scale-110 justify-self-center relative md:left-[23%] w-4/5"
+          />
+          <div class="text-primary relative">
+            <p class="text-[3em] font-bold">5%</p>
+            <ul>
+              <li>+ Niacynamid</li>
+              <li>+ Prowitamina B5</li>
+              <li>+ Kwas hialuronowy</li>
+            </ul>
+          </div>
+        </div>
+        <div class="self-end">
+          <p
+            class="uppercase bg-primary text-white text-center font-bold text-[1.1em] w-10/12 mx-auto"
+          >
+            Hyalurogel Serum
+          </p>
+          <p class="text-primary text-center mb-8 md:mb-0">
+            Testowane na 100% skórze wrażliwej
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--                                                                    xxxxx
+                                                                                x
+                                                                            xxxxx
+                                                                            x
+                                                                            xxxxx
+-->
+    <div class="grid md:grid-cols-[1fr_60%] gap-4 mt-20 items-center">
+      <img src="img/20.jpg" alt="packaging" />
+      <div class="grid grid-cols-[auto_1fr] gap-4 items-center w-10/12 mx-auto">
+        <img
+          data-animation="fade-from-left"
+          src="img/21microscope.png"
+          alt="microscope icon"
+          class="transition-transform duration-500 hover:scale-110"
+        />
+        <p>Formuła stworzona pod kontrolą medyczną</p>
+        <img
+          data-animation="fade-from-left"
+          data-delay="800ms"
+          src="img/22feather.png"
+          alt="feather icon"
+          class="transition-transform duration-500 hover:scale-110"
+        />
+        <p>Dla skóry wrażliwej, normalnej i suchej</p>
+        <img
+          data-animation="fade-from-left"
+          data-delay="1s"
+          src="img/23.png"
+          alt=" icon"
+          class="transition-transform duration-500 hover:scale-110"
+        />
+        <p>Hipoalergiczne</p>
+      </div>
+    </div>
+    <!--                                                                    xxxxx
+                                                                                x
+                                                                            xxxxx
+                                                                                x
+                                                                            xxxxx
+-->
+    <div class="w-10/12 mx-auto mt-20">
+      <p class="h2 text-center mb-10">POZNAJ EKSPERCKĄ MOC NASZEGO SERUM!</p>
+      <div
+        class="grid lg:grid-cols-[60%_1fr] gap-4 items-center justify-items-center"
+      >
+        <div class="grid grid-cols-[auto_1fr] gap-4 items-center">
+          <img
+            data-animation="fade-from-left"
+            src="img/30.png"
+            alt="water droplet icon"
+            class="transition-transform duration-500 hover:scale-110"
+          />
+          <p>
+            <strong>Nawilżenie przez 24h*</strong><br />Dzięki zawartości kwasu
+            hialuronowego, zdolnego wchłonąć 1000 razy więcej wody niż sam waży,
+            serum zapewnia intensywne nawilżenie przez 24h.
+          </p>
+          <img
+            data-animation="fade-from-left"
+            data-delay="700ms"
+            src="img/31.png"
+            alt="flower icon"
+            class="transition-transform duration-500 hover:scale-110"
+          />
+          <p>
+            <strong>Sprężystość i zdrowy wygląd</strong><br />Po 4 tygodniach
+            skóra jest bardziej miękka, gładsza, promienna i wygląda na
+            wypełnioną.
+          </p>
+          <img
+            data-animation="fade-from-left"
+            data-delay="900ms"
+            src="img/32.png"
+            alt="hand icon"
+            class="transition-transform duration-500 hover:scale-110"
+          />
+          <p>
+            <strong>Natychmiastowe ukojenie</strong><br />Łagodzi skórę wrażliwą
+            od pierwszego zastosowania, redukując uczucie dyskomfortu i
+            ściągnięcia.
+          </p>
+        </div>
+        <img src="img/33.jpg" alt="packaging" />
+      </div>
+    </div>
+    <!--                                                                    x   x
+                                                                            x   x
+                                                                            xxxxx
+                                                                                x
+                                                                                x
+-->
+    <div class="mt-20">
+      <p class="h2 mb-10 text-center">POTWIERDZONA SKUTECZNOŚĆ</p>
+      <div class="grid md:grid-cols-2 items-center">
+        <img
+          src="img/40.jpg"
+          alt="packaging"
+          class="w-full h-full object-cover"
+        />
+        <div>
+          <div
+            class="bg-[url(img/41bg.jpg)] bg-no-repeat bg-center bg-cover py-10 pr-10"
+          >
+            <div class="bg-white-tr rounded-r-xl p-4 text-dark">
+              <p class="font-bold text-center mb-4">NATYCHMIASTOWO…</p>
+              <ul>
+                <li class="group" data-animation="fade-from-right">
+                  <span class="text-[2em] font-bold group-hover:text-primary"
+                    >81%</span
+                  >
+                  kobiet twierdzi, że skóra jest odczuwalnie nawilżona*
+                </li>
+                <li
+                  class="group"
+                  data-animation="fade-from-right"
+                  data-delay="700ms"
+                >
+                  <span class="text-[2em] font-bold group-hover:text-primary"
+                    >78%</span
+                  >
+                  kobiet potwierdza odczucie komfortu skóry*
+                </li>
+                <li
+                  class="group"
+                  data-animation="fade-from-right"
+                  data-delay="900ms"
+                >
+                  <span class="text-[2em] font-bold group-hover:text-primary"
+                    >69%</span
+                  >
+                  kobiet zaważyło, że skóra wygląda bardziej świeżo*
+                </li>
+                <li
+                  class="group"
+                  data-animation="fade-from-right"
+                  data-delay="1100ms"
+                >
+                  <span class="text-[2em] font-bold group-hover:text-primary"
+                    >67%</span
+                  >
+                  deklaruje, że skóra jest wygładzona*
+                </li>
+              </ul>
+              <p class="font-bold text-center mt-6">POD KONIEC DNIA…</p>
+              <ul>
+                <li
+                  class="group"
+                  data-animation="fade-from-right"
+                  data-delay="1300ms"
+                >
+                  <span class="text-[2em] font-bold group-hover:text-primary"
+                    >80%</span
+                  >
+                  kobiet potwierdziło, że skóra jest odczuwalnie mniej
+                  podrażniona*
+                </li>
+              </ul>
+            </div>
+          </div>
+          <p class="p-1">
+            <small
+              >*test samooceny, 85 kobiet, aplikacja dwa razy dziennie: rano i
+              wieczorem</small
+            >
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--                                                                    xxxxx
+                                                                            x
+                                                                            xxxxx
+                                                                                x
+                                                                            xxxxx
+-->
+    <div class="w-10/12 mx-auto mt-20">
+      <p class="h2 text-center mb-10">
+        SKONCENTROWANA SIŁA SKŁADNIKÓW AKTYWNYCH <strong>W 5% FORMULE</strong>
+      </p>
+      <div class="flex flex-wrap gap-4 justify-center">
+        <div
+          data-animation="fade-from-left"
+          class="min-w-[240px] max-w-[300px] flex-1"
+        >
+          <div
+            class="transition-transform duration-500 hover:scale-110 bg-[url(img/50.jpg)] bg-center bg-no-repeat bg-cover w-full aspect-square grid place-items-center"
+          >
+            <div
+              class="text-white text-[1.5em] font-bold bg-[rgba(0,68,175,0.8)] w-10/12 min-h-[calc(2lh+32px)] grid place-items-center"
+            >
+              <p class="">NIANCYNAMID</p>
+            </div>
+          </div>
+          <p class="mt-6 text-center">
+            Wygładza skórę oraz przywraca jej sprężystość i elastyczność.
+            Reguluje aktywność gruczołów łojowych i działa antybakteryjnie.
+          </p>
+        </div>
+        <div
+          data-animation="fade-in"
+          data-delay="0s"
+          data-duration="1s"
+          class="min-w-[240px] max-w-[300px] flex-1"
+        >
+          <div
+            class="transition-transform duration-500 hover:scale-110 bg-[url(img/51.jpg)] bg-center bg-no-repeat bg-cover w-full aspect-square grid place-items-center"
+          >
+            <div
+              class="text-white text-[1.5em] font-bold bg-[rgba(0,68,175,0.8)] w-10/12 min-h-[calc(2lh+32px)] grid place-items-center"
+            >
+              <p class="">PATHENOL</p>
+            </div>
+          </div>
+
+          <p class="mt-6 text-center">
+            Działa przeciwzapalnie i przyspiesza procesy regeneracji naskórka.
+            Łagodzi podrażnienia oraz przynosi natychmiastowe ukojenie skóry.
+          </p>
+        </div>
+        <div
+          data-animation="fade-from-right"
+          class="min-w-[240px] max-w-[300px] flex-1"
+        >
+          <div
+            class="transition-transform duration-500 hover:scale-110 bg-[url(img/52.jpg)] bg-center bg-no-repeat bg-cover w-full aspect-square grid place-items-center"
+          >
+            <div
+              class="text-center text-white text-[1.5em] font-bold bg-[rgba(0,68,175,0.8)] w-10/12 min-h-[calc(2lh+32px)] grid place-items-center"
+            >
+              <p class="">KWAS HIALURONOWY</p>
+            </div>
+          </div>
+          <p class="mt-6 text-center">
+            Nawilża i chroni przed utratą wody, uelastyczniając i ujędrniając
+            skórę. Zapobiega powstawaniu drobnych zmarszczek oraz sprawia, że
+            skóra jest miękka i wygładzona.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--                                                                    xxxxx
+                                                                            x
+                                                                            xxxxx
+                                                                            x   x
+                                                                            xxxxx
+-->
+    <div class="w-10/12 mx-auto mt-20">
+      <p class="h2 text-center uppercase mb-10">
+        Zadbaj o rutynę pielęgnacyjną!
+      </p>
+      <div class="grid lg:grid-cols-2 items-center justify-items-center mb-10">
+        <div data-animation="fade-from-left" class="flex">
+          <span class="block text-secondary text-[12em] font-bold leading-[.8]"
+            >1</span
+          >
+          <div>
+            <p class="font-bold mb-3 text-[1.1em]">KROK OCZYSZCZENIE</p>
+            <hr class="w-full h-[3px] bg-primary" />
+            <p class="my-4">
+              Zmyj makijaż i oczyść twarz płynem micelarnym Optymalna Tolerancja
+              i przygotuj skórę na dalszą pielęgnację.
+            </p>
+            <button class="transition-transform duration-500 hover:scale-110">
+              SPRAWDŹ
+            </button>
+          </div>
+        </div>
+        <img
+          data-animation="fade-from-right"
+          src="img/60.jpg"
+          alt="packaging"
+          class="transition-transform duration-500 hover:scale-110"
+        />
+      </div>
+      <div class="grid lg:grid-cols-2 items-center justify-items-center mb-10">
+        <div data-animation="fade-from-left" class="flex relative z-10">
+          <span class="block text-secondary text-[12em] font-bold leading-[.8]"
+            >2</span
+          >
+          <div>
+            <p class="font-bold mb-3 text-[1.1em]">
+              KROK SKONCENTROWANA PIELĘGNACJA
+            </p>
+            <hr class="w-full h-[3px] bg-primary" />
+            <p class="my-4">
+              Zapewnij skórze odżywcze składniki aktywne o wysokim stężeniu,
+              aplikując Serum Hyalurogel.
+            </p>
+            <button class="transition-transform duration-500 hover:scale-110">
+              SPRAWDŹ
+            </button>
+          </div>
+        </div>
+        <img
+          data-animation="fade-from-right"
+          src="img/61.jpg"
+          alt="packaging"
+          class="lg:order-first relative lg:-right-[20%] transition-transform duration-500 hover:scale-110"
+        />
+      </div>
+      <div class="grid lg:grid-cols-2 items-center justify-items-center mb-10">
+        <div data-animation="fade-from-left" class="flex relative z-10">
+          <span class="block text-secondary text-[12em] font-bold leading-[.8]"
+            >3</span
+          >
+          <div>
+            <p class="font-bold mb-3 text-[1.1em]">
+              KROK INTENSYWNE NAWILŻENIE
+            </p>
+            <hr class="w-full h-[3px] bg-primary" />
+            <p class="my-4">
+              Zadbaj o nawilżenie skóry przez 24h, dzięki bogatemu kremowi na
+              dzień oraz kremowi-masce na noc z linii Hyalurogel.
+            </p>
+            <button class="transition-transform duration-500 hover:scale-110">
+              SPRAWDŹ
+            </button>
+          </div>
+        </div>
+        <img
+          data-animation="fade-from-right"
+          src="img/63.jpg"
+          alt="packaging"
+          class="transition-transform duration-500 hover:scale-110"
+        />
+      </div>
+    </div>
+    <!--                                                                    xxxxx
+                                                                                x
+                                                                               x
+                                                                              x
+                                                                             x
+-->
+    <div class="w-10/12 mx-auto mt-20">
+      <iframe
+        class="w-full aspect-video"
+        src="https://www.youtube.com/embed/8_pufhTKDco"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <!--                                                                    xxxxx
+                                                                            x   x
+                                                                            xxxxx
+                                                                            x   x
+                                                                            xxxxx
+-->
+    <div class="w-10/12 mx-auto mt-20">
+      <p class="h2 text-center mb-10">OPINIE KONSUMENTEK</p>
+      <div class="lg:grid lg:grid-cols-[70%_1fr] gap-4">
+        <div>
+          <p
+            class="text-secondary text-[15em] leading-[0.4] mt-32 text-center font-bold"
+          >
+            &ldquo;
+          </p>
+          <div
+            id="testimonials"
+            aria-label="opinie użytkowniczek produktu"
+            class="splide pb-10 w-full"
+          >
+            <div
+              class="splide__track bg-primary text-white text-center rounded-md"
+            >
+              <ul class="splide__list">
+                <li class="splide__slide py-4 px-16">
+                  <div class="flex gap-1 justify-center my-3">
+                    <svg width="15px" height="15px" fill="white">
+                      <use href="#star"></use>
+                    </svg>
+                    <svg width="15px" height="15px" fill="white">
+                      <use href="#star"></use>
+                    </svg>
+                    <svg width="15px" height="15px" fill="white">
+                      <use href="#star"></use>
+                    </svg>
+                    <svg width="15px" height="15px" fill="white">
+                      <use href="#star"></use>
+                    </svg>
+                    <svg width="15px" height="15px" fill="white">
+                      <use href="#star"></use>
+                    </svg>
+                  </div>
+                  <p>
+                    <strong>Cudowny!</strong><br /><br />
+                    “Serum jest w pięknej szklanej buteleczce, pięknie
+                    prezentuje się w łazience.<br /><br />
+                    Jako produkt jest fantastyczne. Świetnie nawilża podrażnioną
+                    skórę. Skóra jest po serum gładka, jędrna. Idealny do skóry
+                    wrażliwej.”<br /><br />
+                    Agnese2aa
+                  </p>
+                </li>
+                <li class="splide__slide py-4 px-16">
+                  <div class="flex gap-1 justify-center my-3">
+                    <svg width="15px" height="15px" fill="white">
+                      <use href="#star"></use>
+                    </svg>
+                    <svg width="15px" height="15px" fill="white">
+                      <use href="#star"></use>
+                    </svg>
+                    <svg width="15px" height="15px" fill="white">
+                      <use href="#star"></use>
+                    </svg>
+                    <svg width="15px" height="15px" fill="white">
+                      <use href="#star"></use>
+                    </svg>
+                    <svg width="15px" height="15px" fill="white">
+                      <use href="#star"></use>
+                    </svg>
+                  </div>
+                  <p>
+                    <strong>Mój ideał </strong><br /><br />
+                    “Jestem bardzo pozytywnie zaskoczona działaniem tego serum.
+                    Niezwykle lekkie i bardzo szybko się wchłania. Już po kilku
+                    użyciach moja skóra stała się widocznie bardziej nawilżona.
+                    Zauważyłam, że jest bardziej sprężysta i napięta. Zero
+                    suchych skórek i podrażnień w codziennej pielęgnacji.”<br /><br />
+                    sloneczko2017
+                  </p>
+                </li>
+                <li class="splide__slide py-4 px-16">
+                  <div class="flex gap-1 justify-center my-3">
+                    <svg width="15px" height="15px" fill="white">
+                      <use href="#star"></use>
+                    </svg>
+                    <svg width="15px" height="15px" fill="white">
+                      <use href="#star"></use>
+                    </svg>
+                    <svg width="15px" height="15px" fill="white">
+                      <use href="#star"></use>
+                    </svg>
+                    <svg width="15px" height="15px" fill="white">
+                      <use href="#star"></use>
+                    </svg>
+                    <svg width="15px" height="15px" fill="white">
+                      <use href="#star"></use>
+                    </svg>
+                  </div>
+                  <p>
+                    <strong>Rewelacja!</strong><br /><br />
+                    “Moją przygodę ze stosowaniem serum mogę opisać jednym
+                    słowem: zachwyt.<br /><br />
+                    Po każdym użyciu - serum przynosiło mi bardzo przyjemne
+                    ukojenie, a przy regularnym stosowaniu produktu: zauważyłam,
+                    że moja skóra staje się bardziej nawilżona i jędrna.
+                    Dotychczasowe podrażnienia pojawiały się coraz rzadziej.”<br /><br />
+                    smieszka_agnieszka
+                  </p>
+                </li>
+                <li class="splide__slide py-4 px-16">
+                  <div class="flex gap-1 justify-center my-3">
+                    <svg width="15px" height="15px" fill="white">
+                      <use href="#star"></use>
+                    </svg>
+                    <svg width="15px" height="15px" fill="white">
+                      <use href="#star"></use>
+                    </svg>
+                    <svg width="15px" height="15px" fill="white">
+                      <use href="#star"></use>
+                    </svg>
+                    <svg width="15px" height="15px" fill="white">
+                      <use href="#star"></use>
+                    </svg>
+                    <svg width="15px" height="15px" fill="white">
+                      <use href="#star"></use>
+                    </svg>
+                  </div>
+                  <p>
+                    <strong>Bomba nawilżająca dla twarzy</strong><br /><br />
+                    “Serum z pewnością zostanie ze mną na dłużej. Doskonale
+                    nawilża i koi suchą o zmęczona skórę. Ma przyjemną żelową
+                    konsystencje i delikatny zapach. Opakowanie jest szklane i
+                    bardzo estetyczne, dzięki pompce sprawnie można wycisnąć
+                    odpowiednią ilość produktu. Działanie serum czuć od razu po
+                    nałożeniu. Po serum czuje się, jakbym nałożyła na twarz
+                    kojący kompres.”<br /><br />
+                    Agata1357
+                  </p>
+                </li>
+                <li class="splide__slide py-4 px-16">
+                  <div class="flex gap-1 justify-center my-3">
+                    <svg width="15px" height="15px" fill="white">
+                      <use href="#star"></use>
+                    </svg>
+                    <svg width="15px" height="15px" fill="white">
+                      <use href="#star"></use>
+                    </svg>
+                    <svg width="15px" height="15px" fill="white">
+                      <use href="#star"></use>
+                    </svg>
+                    <svg width="15px" height="15px" fill="white">
+                      <use href="#star"></use>
+                    </svg>
+                    <svg width="15px" height="15px" fill="white">
+                      <use href="#star"></use>
+                    </svg>
+                  </div>
+                  <p>
+                    <strong>Istne złoto </strong><br /><br />
+                    “Serum dla skóry wrażliwej bardzo mnie zaskoczyło - dobrze
+                    się rozprowadza, pięknie nawilża, sprawia że skóra jest
+                    pełna blasku, widoczne jest ujędrnienie, ma wygodne i
+                    higieniczne opakowanie. Nadaje się dla skóry młodej i
+                    dojrzałej. Jest wydajne i pięknie, a zarazem delikatnie
+                    pachnie. Pozwala na dobre rozprowadzenie kremu. Nie klei
+                    się, nie roluje makijażu - współgra z podkładem.<br />
+                    Jest wydajne - stosuję od miesiąca + przyłączała się mama i
+                    zużycie jest niewielkie ok. 1 cm w buteleczce.<br />
+                    Szczerze polecam :)”<br />
+                    MartaSroczka
+                  </p>
+                </li>
+                <li class="splide__slide py-4 px-16">
+                  <div class="flex gap-1 justify-center my-3">
+                    <svg width="15px" height="15px" fill="white">
+                      <use href="#star"></use>
+                    </svg>
+                    <svg width="15px" height="15px" fill="white">
+                      <use href="#star"></use>
+                    </svg>
+                    <svg width="15px" height="15px" fill="white">
+                      <use href="#star"></use>
+                    </svg>
+                    <svg width="15px" height="15px" fill="white">
+                      <use href="#star"></use>
+                    </svg>
+                    <svg width="15px" height="15px" fill="white">
+                      <use href="#star"></use>
+                    </svg>
+                  </div>
+                  <p>
+                    <strong>Cudowny kosmetyk!</strong><br /><br />
+                    “Kosmetyk ten ma delikatną konsystencję i przecudowny
+                    zapach. Zauważyłam polepszony stan mojej skóry (posiadam
+                    skore wrażliwą i lekko wysuszoną) już po kilku dniach
+                    stosowania. Opakowanie wydajne. Serdecznie polecam.”<br /><br />
+                    aniusialka
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <img src="img/80.jpg" alt="packaging" class="hidden lg:block mt-10" />
+      </div>
+    </div>
+
+    <!-- SVGS -->
+    <svg width="0" height="0" xmlns="http://www.w3.org/2000/svg">
+      <symbol id="arrow" viewBox="0 0 40 40">
+        <path d="M30.6,20L14.9,40H9.4l15.7-20L9.4,0h5.6L30.6,20z" />
+      </symbol>
+      <symbol id="star" viewBox="0 0 511 511">
+        <path
+          d="M509.7,196c-3.4-10.3-12.5-17.7-23.4-18.7L338.8,164L280.5,27.5c-4.3-10-14.1-16.5-25-16.5c-10.9,0-20.7,6.5-25,16.5
+	L172.2,164L24.7,177.3c-10.8,1-20,8.3-23.4,18.7c-3.4,10.3-0.3,21.7,7.9,28.9l111.5,97.8L87.9,467.4c-2.4,10.6,1.7,21.7,10.6,28
+	c4.7,3.5,10.3,5.2,15.9,5.2c4.8,0,9.6-1.3,13.9-3.9l127.2-76.1l127.2,76.1c9.3,5.6,21.1,5.1,29.9-1.3c8.8-6.4,13-17.4,10.6-28
+	l-32.9-144.8l111.5-97.8C509.9,217.7,513,206.4,509.7,196z"
+        />
+      </symbol>
+    </svg>
+  </body>
+</html>
+
+<!-- <img srcset="/assets/images/image.jpg {{ image('/assets/images/image.jpg', { widths: [320, 640, 1280] }).srcset }}" alt="My Image"> -->

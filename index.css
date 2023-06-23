@@ -1,0 +1,96 @@
+@import url(preflight.css);
+@import '@splidejs/splide/dist/css/splide.min.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+}
+
+@layer components {
+  button {
+    @apply bg-accent py-1 px-6 text-white font-bold rounded-md;
+    transition: 300ms ease-in;
+  }
+
+  .h2 {
+    @apply text-[1.4em];
+  }
+}
+
+@layer utilities {
+}
+
+/* @font-face {
+  font-family: 'Gotham Book';
+  src: url('fonts/Gotham\ Book\ Font.otf');
+} */
+
+/* ___________________________________________________________ instructions carousel customization ________________________________________________________ */
+
+.arrow {
+  @apply bg-transparent opacity-100;
+}
+.arrow svg {
+  @apply h-5 w-5 fill-white;
+}
+
+.page {
+  @apply bg-primary w-10 h-2 rounded opacity-50;
+}
+.page.is-active {
+  @apply bg-primary opacity-100 scale-100;
+}
+
+/* _____________________________________________________ animations ________________________________________________ */
+
+@keyframes fade-from-left {
+  from {
+    transform: translateX(-20px);
+    opacity: 0;
+  }
+}
+
+@keyframes fade-from-right {
+  from {
+    transform: translateX(20px);
+    opacity: 0;
+  }
+}
+
+@keyframes fade-from-bottom {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}
+
+@keyframes bounce {
+  0% {
+    transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    transform: scale(1.1, 0.9) translateY(0);
+  }
+  30% {
+    transform: scale(0.9, 1.1) translateY(-100px);
+  }
+  50% {
+    transform: scale(1.05, 0.95) translateY(0);
+  }
+  57% {
+    transform: scale(1, 1) translateY(-7px);
+  }
+  64% {
+    transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    transform: scale(1, 1) translateY(0);
+  }
+}
